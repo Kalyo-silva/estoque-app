@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: kalyo/frontend-estoque:latest
+          image: kalyo/frontend-estoque:V2
           ports:
             - containerPort: 80

@@ -1,4 +1,4 @@
-const API = 'http://localhost:8080/api';
+const API = '/api';
 
 async function carregarProdutos() {
     const response = await fetch(`${API}/read.php`);
